@@ -5,3 +5,8 @@ def to_uppercase(s: str) -> str:
     return s.upper()
 
 
+def capitalize_words(s: str) -> str:
+    """
+    Заглавные буквы каждого слова в входной строке s.
+    """
+    return s.title()
